@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmPage should render matching the existing snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="sc-bwzfXH conSAz"
+  >
+    <section
+      class="sc-ifAKCX huQwQB"
+    >
+      <label
+        class="sc-gqjmRU fxwXMY"
+      >
+        Time left to pay:
+      </label>
+       
+      <label
+        class="sc-jTzLTM leETWq"
+      >
+        3:12
+      </label>
+      <div
+        class="sc-gzVnrw dRLHSk"
+      />
+      <label
+        class="sc-gqjmRU fxwXMY"
+      >
+        Class:
+      </label>
+       
+      <label
+        class="sc-jTzLTM gYRASo"
+      >
+        2
+      </label>
+      <div
+        class="sc-gzVnrw dRLHSk"
+      />
+      <label
+        class="sc-gqjmRU fxwXMY"
+      >
+        Seat:
+      </label>
+      <label
+        class="sc-jTzLTM gYRASo"
+      >
+        12
+      </label>
+      <div
+        class="sc-gzVnrw dRLHSk"
+      />
+      <label
+        class="sc-gqjmRU fxwXMY"
+      >
+        Passenger Name:
+      </label>
+       
+      <label
+        class="sc-jTzLTM gYRASo"
+      >
+        Tom Riddle
+      </label>
+      <div
+        class="sc-gzVnrw dRLHSk"
+      />
+      <label
+        class="sc-gqjmRU fxwXMY"
+      >
+        Travel Date:
+      </label>
+       
+      <label
+        class="sc-jTzLTM gYRASo"
+      >
+        2
+      </label>
+      <div
+        class="sc-gzVnrw dRLHSk"
+      />
+      <label
+        class="sc-gqjmRU fxwXMY"
+      >
+        Travel Time:
+      </label>
+       
+      <label
+        class="sc-jTzLTM gYRASo"
+      >
+        1546383600000
+      </label>
+      <div
+        class="sc-gzVnrw dRLHSk"
+      />
+      <label
+        class="sc-gqjmRU fxwXMY"
+      >
+        Price:
+      </label>
+       
+      <label
+        class="sc-jTzLTM gYRASo"
+      >
+        $12
+      </label>
+      <div
+        class="sc-gzVnrw jrKBVA"
+      />
+      <section
+        class="sc-EHOje cIxLkv"
+      >
+        <button
+          class="sc-iwsKbI fxuKIw"
+          data-testid="pay"
+          width="10em"
+        >
+          Pay
+        </button>
+        <div
+          class="sc-gzVnrw hvsyRJ"
+        />
+        <button
+          class="sc-iwsKbI fxuKIw"
+          data-testid="cancel"
+          width="10em"
+        >
+          Cancel
+        </button>
+      </section>
+    </section>
+  </section>
+</DocumentFragment>
+`;

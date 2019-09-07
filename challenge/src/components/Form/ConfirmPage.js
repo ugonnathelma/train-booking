@@ -44,6 +44,7 @@ const ConfirmPage = ({
         <Space vertical="1.5em" />
         <Flex>
           <Button
+            data-testid="pay"
             width="10em"
             onClick={() => {
               stopTimer();
@@ -53,7 +54,11 @@ const ConfirmPage = ({
             Pay
           </Button>
           <Space horizontal="1.5em" />
-          <Button width="10em" onClick={() => cancelBooking()}>
+          <Button
+            width="10em"
+            onClick={() => cancelBooking()}
+            data-testid="cancel"
+          >
             Cancel
           </Button>
         </Flex>
