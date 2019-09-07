@@ -35,8 +35,6 @@ const startTimer = (setTimer, cancelBooking, minutes, seconds) => {
     }
     setTimer({ minutes, seconds });
   }, 1000);
-
-  console.log("got here");
 };
 
 const stopTimer = () => {
@@ -79,16 +77,35 @@ const Form = () => {
   const setInput = (value, key) =>
     setPassengerDetails({ ...passengerDetails, [key]: value });
 
-  const cancelBooking = () => setCancel(true);
+  const cancelBooking = () => {
+    setCancel(true);
+    setTimer({
+      minutes: 3,
+      seconds: 0
+    });
+  };
   const reset = () => {
     setCancel(false);
     setSuccess(false);
     setShowConfirm(false);
+    selectSeat(null);
+    selectClass(1);
+    setTimer({
+      minutes: 3,
+      seconds: 0
+    });
+
+    setPassengerDetails({
+      firstName: "",
+      lastName: "",
+      date: moment().format("YYYY-MM-DD"),
+      time: null
+    });
   };
 
   return (
     <Container>
-      <LeftPanel>
+      <LeftPanel slideRight={showConfirmPage}>
         <h2>Train trip booking</h2>
         <Hr></Hr>
         <Space vertical="2em" />
@@ -216,13 +233,13 @@ const Form = () => {
               stopTimer={stopTimer}
               bookingSuccess={setSuccess}
               cancelBooking={cancelBooking}
-              price={selectedClass === 1 ? "150" : "65"}
+              price={selectedClass === 1 ? "€150" : "€65"}
             />
           ) : (
             success &&
             !cancelled && (
               <div>
-                <Label>Reservation is successful</Label>
+                <Label success>Reservation is successful</Label>
                 <Space vertical="1em" />
                 <Button onClick={() => cancelBooking()}>Cancel</Button>
               </div>
@@ -239,7 +256,7 @@ const Form = () => {
           )}
         </div>
       </LeftPanel>
-      <RightPanel></RightPanel>
+      <RightPanel slideLeft={showConfirmPage}></RightPanel>
     </Container>
   );
 };

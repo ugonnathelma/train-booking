@@ -21,6 +21,10 @@ export const Container = styled.section`
   * {
     box-sizing: border-box;
   }
+
+  @media (max-width: 705px) {
+    flex-direction: column-reverse !important;
+  }
 `;
 
 export const LeftPanel = styled.section`
@@ -121,8 +125,9 @@ export const Button = styled.button`
 `;
 
 export const TextField = styled.input`
-  padding: 0.7em;
-  border: 1px solid gainsboro;
+  padding: 0.7em !important;
+  height: 3em;
+  border: 1px solid ${theme.grey};
   outline: none;
   font-size: 14px;
   width: 100%;
