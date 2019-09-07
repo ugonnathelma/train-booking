@@ -1,6 +1,6 @@
 # Train Booking
 
-SMS-api is an sms management system that enables users send an sms from to each other.
+Train Booking in an application that allows passengers book train seats
 
 ### Features!
 
