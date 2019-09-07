@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render matching the existing snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="sc-bwzfXH iAPMsk"
+  >
+    <section
+      class="sc-htpNat iyhOGH"
+    >
+      <h2>
+        Train trip booking
+      </h2>
+      <div
+        class="sc-VigVT kwmnKF"
+      />
+      <div
+        class="sc-gzVnrw derNAl"
+      />
+      <section
+        class="sc-ifAKCX huQwQB"
+      >
+        <section
+          class="sc-EHOje cIxLkv"
+        >
+          <label>
+            available:
+          </label>
+           
+          <div
+            class="sc-htoDjs bKRqCk"
+          />
+           
+          <label>
+            taken:
+          </label>
+          <div
+            class="sc-htoDjs kfhMrO"
+          />
+        </section>
+        <div
+          class="sc-gzVnrw derNAl"
+        />
+        <label
+          class="sc-gqjmRU fxwXMY"
+        >
+          Please choose a class
+        </label>
+        <div
+          class="sc-gzVnrw cZOpws"
+        />
+        <section
+          class="sc-EHOje cIxLkv"
+        >
+          <input
+            checked=""
+            class="sc-bdVaJa fVCJpx"
+            name="class"
+            readonly=""
+            type="radio"
+            value="first"
+          />
+           First Class
+          <div
+            class="sc-gzVnrw ceXOul"
+          />
+          <input
+            class="sc-bdVaJa fVCJpx"
+            name="class"
+            readonly=""
+            type="radio"
+            value="second"
+          />
+           Second Class
+        </section>
+        <div>
+          <div
+            class="sc-gzVnrw cZOpws"
+          />
+          <label
+            class="sc-gqjmRU fxwXMY"
+          >
+            Carriage:
+          </label>
+           A
+          <div
+            class="sc-dnqmqq eWlhsD"
+          >
+            <div
+              class="sc-htoDjs hPgVdR"
+            >
+              1
+            </div>
+            <div
+              class="sc-htoDjs hPgVdR"
+            >
+              2
+            </div>
+            <div
+              class="sc-htoDjs eaKqHr"
+            >
+              3
+            </div>
+            <div
+              class="sc-htoDjs eaKqHr"
+            >
+              4
+            </div>
+            <div
+              class="sc-htoDjs hPgVdR"
+            >
+              5
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="sc-gzVnrw cZOpws"
+          />
+          <label
+            class="sc-gqjmRU fxwXMY"
+          >
+            Carriage:
+          </label>
+           B
+          <div
+            class="sc-dnqmqq eWlhsD"
+          >
+            <div
+              class="sc-htoDjs hPgVdR"
+            >
+              6
+            </div>
+            <div
+              class="sc-htoDjs eaKqHr"
+            >
+              7
+            </div>
+            <div
+              class="sc-htoDjs hPgVdR"
+            >
+              8
+            </div>
+            <div
+              class="sc-htoDjs hPgVdR"
+            >
+              9
+            </div>
+            <div
+              class="sc-htoDjs eaKqHr"
+            >
+              10
+            </div>
+          </div>
+        </div>
+        <section
+          class="sc-EHOje levPRg"
+        >
+          <section
+            class="sc-bZQynM cJwquT"
+          >
+            <label
+              class="sc-gqjmRU fxwXMY"
+              for="firstName"
+            >
+              First Name
+            </label>
+             
+            <input
+              class="sc-gZMcBi btdWif"
+              id="firstName"
+              value=""
+            />
+          </section>
+          <div
+            class="sc-gzVnrw QhzJ"
+          />
+          <section
+            class="sc-bZQynM cJwquT"
+          >
+            <label
+              class="sc-gqjmRU fxwXMY"
+              for="lastName"
+            >
+              Last Name
+            </label>
+            <input
+              class="sc-gZMcBi btdWif"
+              id="lastName"
+              value=""
+            />
+          </section>
+        </section>
+        <div
+          class="sc-gzVnrw cZOpws"
+        />
+        <section
+          class="sc-EHOje levPRg"
+        >
+          <section
+            class="sc-bZQynM cJwquT"
+          >
+            <label
+              class="sc-gqjmRU fxwXMY"
+              for="travelDate"
+            >
+              Travel Date
+            </label>
+            <input
+              class="sc-gZMcBi btdWif"
+              id="travelDate"
+              type="date"
+              value="2019-09-07"
+            />
+          </section>
+          <div
+            class="sc-gzVnrw QhzJ"
+          />
+          <section
+            class="sc-bZQynM cJwquT"
+          >
+            <label
+              class="sc-gqjmRU fxwXMY"
+              for="travelTime"
+            >
+              Travel Time
+            </label>
+            <input
+              class="sc-gZMcBi btdWif"
+              id="travelTime"
+              type="time"
+              value=""
+            />
+          </section>
+        </section>
+        <div
+          class="sc-gzVnrw cZOpws"
+        />
+        <button
+          class="sc-iwsKbI kOYkMQ"
+          disabled=""
+        >
+          Check in
+        </button>
+      </section>
+       
+      <div />
+    </section>
+    <section
+      class="sc-bxivhb csVKtc"
+    />
+  </section>
+</DocumentFragment>
+`;
